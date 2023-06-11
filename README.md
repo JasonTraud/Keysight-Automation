@@ -26,3 +26,6 @@ Example of sampling data as quickly as possible on the 34465A and retrieving onc
 
 ### timeBasedSampling
 Example of acquiring data on the 34465A based on an internal timer. This example sets the timer 100ms and collects 100 samples.  
+
+### externalTrigger
+Example of using the external trigger on the 34465A to capture data into memory and then retrieving it from the device. 
