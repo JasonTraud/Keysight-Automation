@@ -22,4 +22,7 @@ Stepping this a bit further, this provides an example of configuring the wavefor
 Example of taking individual samples. Example also exports all data into a CSV file with time stamps for each acquisition to highlight the sampling rate limitations when taking individual measurements.  
 
 ### maxSampling
-Example of sampling data as quickly as possible on the 34465A and retrieving once complete. This will sample at 5000 samples/second. The base model supports 50,000 readings with the optional memory upgrade supporting 2,000,000 readings.  
+Example of sampling data as quickly as possible on the 34465A and retrieving once complete. This will sample at 5000 samples/second. The base model supports 50,000 readings with the optional memory upgrade supporting 2,000,000 readings. 
+
+### timeBasedSampling
+Example of acquiring data on the 34465A based on an internal timer. This example sets the timer 100ms and collects 100 samples.  
