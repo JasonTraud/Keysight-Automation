@@ -17,6 +17,9 @@ Stepping this a bit further, this provides an example of configuring the wavefor
 
 [Click here for a detailed blog post](http://oshgarage.com/keysight-automation-with-python/)
 
+### SaveImage
+Saves an image of the screen to local USB.
+
 ## 34465A Examples
 ### singleShot
 Example of taking individual samples. Example also exports all data into a CSV file with time stamps for each acquisition to highlight the sampling rate limitations when taking individual measurements.  
